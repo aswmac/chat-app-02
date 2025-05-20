@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.chat-window {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    position: relative;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
